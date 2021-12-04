@@ -1,0 +1,17 @@
+.header {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.5em 1em;
+  margin-bottom: 20px;
+}
+.header h2 {
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 1024px) {
+  .header{
+    justify-content: start;
+    gap: 2em;
+  }
+} 
